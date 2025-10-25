@@ -1,0 +1,9 @@
+time:
+  raw_freq: "2s"            # Sampling im Rohsatz (falls bekannt)
+  target_freq: "1min"       # Analyse-Raster
+paths:
+  raw_daily: "data/ker450_tbm_raw_daily"
+  warehouse: "data/warehouse"
+
+#Mapping der Spaltennamen der CSVs auf "saubere" Keys
+sensors:
